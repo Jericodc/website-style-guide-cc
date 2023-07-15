@@ -1,0 +1,90 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+section {
+    border: 1px solid black;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.container {
+    margin: 1rem auto;
+    padding: 0 .5rem;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* Colors Section */
+.colors {
+    width: 32%;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.blue {
+    background-color: #2d5dcc;
+    color: #fff;
+}
+
+.pink {
+    background-color: #d957d9;
+}
+
+.green {
+    background-color: #4fe0b0;
+}
+
+.beige {
+    background-color: #efd9ca;
+}
+
+/* Fonts Section */
+.source-code {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.poppins,
+.h2-style,
+.p-styles {
+    font-family: 'Poppins', sans-serif;
+}
+
+.underline {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Text Styles Section */
+.container-style {
+    flex-direction: column;
+}
+
+.h1-style {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0.4rem;
+}
+
+.h2-style {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.p-style {
+    font-size: 14px;
+    font-weight: 400;
+}
